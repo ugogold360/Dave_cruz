@@ -45599,7 +45599,7 @@ html.boxed .rd-navbar--is-clone {
 }
 
 .slick-loading .slick-list {
-    background: #fff url("./../images/ajax-loader.gif") center center no-repeat;
+    background: #fff url("/img/ajax-loader.gif") center center no-repeat;
 }
 
 
@@ -46861,7 +46861,7 @@ a.pswp__share--download:hover {
 
 .pswp__preloader--active .pswp__preloader__icn {
     /* We use .gif in browsers that don't support CSS animation */
-    background: url(../images/preloader.gif) 0 0 no-repeat;
+    background: url(/img/ajax-loader.gif) 0 0 no-repeat;
 }
 
 .pswp--css_animation .pswp__preloader--active {
@@ -48469,4 +48469,7 @@ i.fa.fa-phone, i.fa.fa-home, i.fa.fa-envelope, i.fa.fa-facebook, i.fa.fa-twitter
 .contact_socials{
     font-size: 30px;
     color: red;
+}
+.gallery-img{
+    height: 400px;
 }

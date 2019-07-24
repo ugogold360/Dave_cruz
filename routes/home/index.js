@@ -18,4 +18,8 @@ router.get('/about', (req, res) => {
 	res.render('home/about');
 });
 
+router.get('/gallery', (req, res) => {
+	res.render('home/gallery');
+});
+
 module.exports = router;
