@@ -7,19 +7,19 @@ router.all('/*', (req, res, next) => {
 });
 
 router.get('/', (req, res) => {
-	res.render('home/index');
+    res.render('home/index');
 });
 
 router.get('/contact', (req, res) => {
-	res.render('home/contact');
+    res.render('home/contact');
 });
 
 router.get('/about', (req, res) => {
-	res.render('home/about');
+    res.render('home/about');
 });
 
 router.get('/gallery', (req, res) => {
-	res.render('home/gallery');
+    res.render('home/gallery');
 });
 
 module.exports = router;
